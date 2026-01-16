@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aalia",
+      "age": 28
+    },
+    {
+      "id": 3,
+      "name": "Aman Verma",
+      "age": 24
+    },
+    {
+      "id": 4,
+      "name": "Neha Sharma",
+      "age": 23
+    },
+    {
+      "id": 5,
+      "name": "Shobit",
+      "age": 24
+    }
+  ]
+}
