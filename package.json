@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "crud_operation",
   "version": "1.0.0",
   "description": "Basic crud Operation",
@@ -15,5 +16,23 @@
   },
   "dependencies": {
     "express": "^5.2.1"
+=======
+  "name": "assignment02",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "restart": true,
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+>>>>>>> main
   }
 }
