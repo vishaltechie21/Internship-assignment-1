@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "assignment-2",
   "version": "1.0.0",
   "description": "",
@@ -9,6 +10,35 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+=======
+<<<<<<< HEAD
+  "name": "crud_operation",
+  "version": "1.0.0",
+  "description": "Basic crud Operation",
+  "main": "index.js",
+  "restart": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+=======
+  "name": "assignment02",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "restart": true,
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+>>>>>>> main
     "start": "nodemon index.js"
   },
   "dependencies": {
@@ -16,5 +46,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
+<<<<<<< HEAD
+=======
+>>>>>>> main
+>>>>>>> main
   }
 }
