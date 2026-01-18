@@ -6,6 +6,9 @@ const app = express();
 const PORT = 8000;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 // app.use(express.urlencoded({ extended: false }));
 
 
@@ -14,8 +17,11 @@ app.use(express.json());
 
 
 
+<<<<<<< HEAD
+=======
 =======
 app.use(express.urlencoded({ extended: false }));
+>>>>>>> main
 >>>>>>> main
 
 // to get list of all users in json formate
@@ -36,6 +42,9 @@ app.get("/users", (req, res) => {
 // to get the user by id
 app.get("/api/users/:id", (req, res) => {
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
   const id = Number(req.params.id);
 
   const user = users.find(u => u && u.id === id);
@@ -172,6 +181,9 @@ app.delete('/api/users/:id', (req, res) => {
 
 app.listen(PORT, () => {
     return console.log(`server is running on port ${PORT}`);
+<<<<<<< HEAD
+})
+=======
 })
 =======
     const id = Number(req.params.id);
@@ -220,4 +232,5 @@ app.delete('/api/users/:id', (req, res) => {
 app.listen(PORT, () => {
     return console.log(`server is running on port ${PORT}`);
 })
+>>>>>>> main
 >>>>>>> main
